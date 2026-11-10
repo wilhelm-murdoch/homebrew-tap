@@ -2,7 +2,7 @@
 class Glazier < Formula
   desc "Declarative tmux workspaces from HCL profiles"
   homepage "https://github.com/wilhelm-murdoch/glazier"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   depends_on "tmux"
@@ -10,24 +10,24 @@ class Glazier < Formula
   on_macos do
     on_arm do
       url "https://github.com/wilhelm-murdoch/glazier/releases/download/v#{version}/glaze-darwin-arm64.zip"
-      sha256 "17bc83e536eead5b49125f8e32b28e0d3cc3a63f698421a87dc687b3906fb677"
+      sha256 "c93ecc77701d8fc729d51183e26df0971ceba1040a6369f2f2bdcf332d13151b"
     end
 
     on_intel do
       url "https://github.com/wilhelm-murdoch/glazier/releases/download/v#{version}/glaze-darwin-amd64.zip"
-      sha256 "08997a50a4ed98f26699c358c4aff5380caba5994b9b8b959932161b67e21e03"
+      sha256 "94e92b02ea528c3dfe7da3edb2b70119aa89dc66ef0994fef6cb8cbc85fedb27"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/wilhelm-murdoch/glazier/releases/download/v#{version}/glaze-linux-arm64.zip"
-      sha256 "b44ffff338c792bbeaf7e079ed4bf7ace5369e115c74ffe03df8f5c92ebfd66b"
+      sha256 "224a1ef25bf6463d094e19020c5ef8b4d2d19410429c391e37d732c5fa41e45d"
     end
 
     on_intel do
       url "https://github.com/wilhelm-murdoch/glazier/releases/download/v#{version}/glaze-linux-amd64.zip"
-      sha256 "96476411ffac3e5fcb62399edfc3f4fdd675a861d1d7d796c3d5caac5a92c81f"
+      sha256 "c1d3c66bff6b822019f8f9c8c2b09a8bf20f833871bbf09dd77670837dcc77d0"
     end
   end
 
